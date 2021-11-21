@@ -16,6 +16,9 @@
     font-weight: normal;
     font-style: normal;
 }
+body {
+    overflow-x: hidden;
+}
 body,ul{
     margin: 0;
     padding: 0;
@@ -163,4 +166,13 @@ header.container-fluid {
     height : 50px;
     background-color: transparent;
     color: #32495E;
+}
+
+.social {
+    display: flex;
+   margin-left: 220px;
+    margin-top: 5px;
+}
+.social li {
+    margin-left: 10px;
 }
