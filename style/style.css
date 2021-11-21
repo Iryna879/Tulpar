@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "TT Hoves";
+    src: url("../font/TTHoves-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TTHoves-Bold";
+    src: url("../font/TTHoves-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body,ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "TT Hoves";
+}
+ul{list-style-type: none;}
+a{
+    text-decoration: none;
+    color: #32495E;
+}
+header.container-fluid {
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/background-fluid.png");
+    background-size: cover;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+}
+.logo {
+     margin-top: 20px;
+ }
+.menu {
+    display: flex;
+    margin-top: 20px;
+    font-family: TT Hoves;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 50px;
+}
+.menu li {
+    margin-right: 40px;
+}
+.cardioCentre h6 {
+    font-family: "TTHoves-Bold";
+    margin-top: 135px;
+    margin-left: 125px;
+    width: 428px;
+    height: 72px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #F9F9F9;
+}
+
