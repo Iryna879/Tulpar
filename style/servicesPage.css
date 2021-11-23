@@ -89,7 +89,9 @@ header.container-fluid {
     display: flex;
 }
 .redInfo {
+    position: absolute;
     visibility: hidden;
+    z-index: 1;
 }
 .photoServ li p{
     position: absolute;
@@ -101,4 +103,37 @@ header.container-fluid {
     margin-top: 272px;
     margin-left:25px ;
     width: 241px;
+}
+.redInfo .pulse {
+    height: 164px;
+}
+.redInfo .pulse img {
+    margin-top: 70px ;
+    margin-left: 125px ;
+}
+.redInfo .redInfoText {
+     height: 170px;
+    width: 293px;
+    background-color: #E95258;
+}
+.redInfo .redInfoText p:first-child {
+    font-family: "TTHoves-Bold";
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    margin-top: 20px ;
+    margin-left: 26px ;
+}
+.redInfo .redInfoText p:last-child {
+    font-family: "TT Hoves";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    margin-top: 80px ;
+    margin-left: 26px ;
+}
+.photoServ li:hover .redInfo{
+    visibility: visible;
 }
