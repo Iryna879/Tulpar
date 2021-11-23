@@ -55,7 +55,6 @@ header.container-fluid {
     font-style: normal;
     line-height: 18px;
     text-align: left;
-    margin-left: 40px;
 }
 .menu li {
     margin-right: 40px;
@@ -68,4 +67,14 @@ header.container-fluid {
     text-transform: uppercase;
     color: #F9F9F9;
     margin-top: 100px;
+}
+.map h6 {
+    font-family: "TTHoves-Bold";
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #32495E;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
