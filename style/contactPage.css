@@ -87,8 +87,9 @@ header.container-fluid {
 .map {
     margin-bottom: 50px;
 }
-.address, .phone {
+.address, .phone, .email {
     margin-right: 60px;
+    margin-bottom: 70px;
 }
 .address h3, .phone h3, .email h3 {
     font-family: "TTHoves-ExtraBold";
