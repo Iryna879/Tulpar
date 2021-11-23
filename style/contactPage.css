@@ -122,3 +122,12 @@ header.container-fluid {
 }
 .recommend ul {display: flex}
 .recommend ul li {margin-right: 70px; margin-bottom: 70px;}
+
+footer.container-fluid {
+    width: 100%;
+    height: 302px;
+    background-color:  #333333;
+}
+.logoFooter {
+    margin-top: 40px;
+}
