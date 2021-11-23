@@ -162,5 +162,11 @@ header.container-fluid {
 }
 .menuPrice li:hover {
     border-bottom: 1px solid #E95258;
-    padding-bottom: 4px;
+   /* padding-bottom: 4px;*/
+}
+.gridServices {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr 2fr;
+    grid-auto-rows: minmax(20px, auto);
 }
