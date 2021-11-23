@@ -182,6 +182,11 @@ header.container-fluid {
 .social li {
     margin-left: 10px;
 }
+.serv {
+    width: 100%;
+    height: 664px;
+    background-color:  #32495E;
+}
 .ourServices h6 {
     font-family: "TTHoves-Bold";
     font-weight: 800;
@@ -190,11 +195,7 @@ header.container-fluid {
     text-transform: uppercase;
     color: #F9F9F9;
     margin-top: 70px;
-}
-.serv {
-    width: 100%;
-    height: 664px;
-    background-color:  #32495E;
+    margin-bottom: 50px;
 }
 .photoServ {
     display: flex;
@@ -205,23 +206,34 @@ header.container-fluid {
     visibility: hidden;
     z-index: 1;
 }
+.photoServ li {
+    margin-right: 30px;
+}
+#cardioIndex {
+    width: 279px;
+    height: 240px ;
+}
 .photoServ li  p{
-    font-family: "TTHoves-ExtraBold";
+    font-family: "TTHoves-Bold";
     font-weight: 800;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     color: #F9F9F9;
+    width: 241px;
+    margin-top: 20px;
 }
 .redInfo .pulse {
-    height: 164px;
+    height: 152px;
+    background: #32495E;
+    opacity: 0.6;
 }
 .redInfo .pulse img {
-    margin-top: 70px ;
-    margin-left: 125px ;
+    margin-top: 54px ;
+    margin-left: 119px ;
 }
 .redInfo .redInfoText {
     height: 170px;
-    width: 293px;
+    width: 281px;
     background-color: #E95258;
 }
 .redInfo .redInfoText p:first-child {
@@ -230,8 +242,9 @@ header.container-fluid {
     font-size: 16px;
     line-height: 20px;
     color: #F9F9F9;
-    margin-top: 20px ;
+    padding-top: 20px ;
     margin-left: 26px ;
+    margin-top: 0;
 }
 .redInfo .redInfoText p:last-child {
     font-family: "TT Hoves";
