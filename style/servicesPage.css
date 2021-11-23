@@ -137,3 +137,30 @@ header.container-fluid {
 .photoServ li:hover .redInfo{
     visibility: visible;
 }
+.priceList h6 {
+    font-family: "TTHoves-Bold";
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #32495E;
+    margin-top: 70px ;
+}
+.menuPrice {
+    display: flex;
+    margin-top: 20px;
+}
+
+.menuPrice li {
+    margin-right: 40px;
+    font-family: "TTHoves-Medium";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8093AC;
+    cursor: pointer;
+}
+.menuPrice li:hover {
+    border-bottom: 1px solid #E95258;
+    padding-bottom: 4px;
+}
