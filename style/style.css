@@ -116,7 +116,7 @@ header.container-fluid {
     background-color: transparent;
     color: #F9F9F9;
 }
-.cardioCentre button:hover,.traumaCentre button:hover {
+.cardioCentre button:hover,.traumaCentre button:hover, .ourServicesPhoto button:hover {
     background-color: #000000;
 }
 
@@ -257,4 +257,15 @@ header.container-fluid {
 }
 .photoServ li:hover .redInfo{
     visibility: visible;
+}
+.ourServicesPhoto button {
+    border: 1px solid #F9F9F9;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top: 72px;
+    margin-left: 580px;
+    width: 160px;
+    height : 50px;
+    background-color: transparent;
+    color: #F9F9F9;
 }
