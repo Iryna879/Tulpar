@@ -88,3 +88,17 @@ header.container-fluid {
 .photoServ {
     display: flex;
 }
+.redInfo {
+    visibility: hidden;
+}
+.photoServ li p{
+    position: absolute;
+    font-family: "TTHoves-Bold";
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    margin-top: 272px;
+    margin-left:25px ;
+    width: 241px;
+}
