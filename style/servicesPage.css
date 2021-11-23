@@ -165,8 +165,27 @@ header.container-fluid {
    /* padding-bottom: 4px;*/
 }
 .gridServices {
+    margin-bottom: 70px;
     margin-top: 50px;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr 2fr;
     grid-auto-rows: minmax(20px, auto);
+    grid-row-gap: 20px;
+}
+.gridServices li {
+    font-family: "TTHoves-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8093AC;
+}
+
+.gridServices li:nth-child(1),.gridServices li:nth-child(2),
+.gridServices li:nth-child(3),.gridServices li:nth-child(4) {
+    font-family: "TTHoves-Bold";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #32495E;
+    margin-bottom: 30px;
 }
