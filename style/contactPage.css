@@ -22,6 +22,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "TTHoves-ExtraBold";
+    src: url("../font/TTHoves-ExtraBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     overflow-x: hidden;
     font-family: "TT Hoves";
@@ -60,7 +66,7 @@ header.container-fluid {
     margin-right: 40px;
 }
 .find h6 {
-    font-family: "TTHoves-Bold";
+    font-family: "TTHoves-ExtraBold";
     font-weight: 800;
     font-size: 44px;
     line-height: 52px;
@@ -69,7 +75,7 @@ header.container-fluid {
     margin-top: 100px;
 }
 .map h6 {
-    font-family: "TTHoves-Bold";
+    font-family: "TTHoves-ExtraBold";
     font-weight: 800;
     font-size: 44px;
     line-height: 52px;
@@ -77,4 +83,30 @@ header.container-fluid {
     color: #32495E;
     margin-top: 70px;
     margin-bottom: 50px;
+}
+.map {
+    margin-bottom: 50px;
+}
+.address, .phone {
+    margin-right: 60px;
+}
+.address h3, .phone h3, .email h3 {
+    font-family: "TTHoves-ExtraBold";
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    color: #32495E;
+    margin-bottom: 20px;
+
+}
+.address p, .phone p, .email p {
+    font-family: "TT Hoves";
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #32495E;
+    width: 180px;
+}
+.address p {
+    width: 210px;
 }
