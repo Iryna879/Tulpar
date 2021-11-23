@@ -14,7 +14,7 @@ footer.container-fluid {
     color: #F9F9F9;
     margin-bottom: 20px;
 }
-.mapSite ul li, .contactUs ul li {
+.mapSite ul li a, .contactUs ul li  {
     font-family: "TT Hoves";
     font-size: 18px;
     line-height: 17px;

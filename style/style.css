@@ -22,6 +22,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "TTHoves-ExtraBold";
+    src: url("../font/TTHoves-ExtraBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     overflow-x: hidden;
 }
