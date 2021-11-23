@@ -78,3 +78,13 @@ header.container-fluid {
     color: #32495E;
     margin-top: 20px;
 }
+.servicesPhoto {
+    width: 100%;
+    height: 334px;
+    background-image: url("../img/blueBack.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photoServ {
+    display: flex;
+}
