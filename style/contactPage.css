@@ -108,6 +108,17 @@ header.container-fluid {
     color: #32495E;
     width: 180px;
 }
-.address p {
-    width: 210px;
+.address p {width: 210px;}
+
+.recommend h6 {
+    font-family: "TTHoves-ExtraBold";
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #32495E;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
+.recommend ul {display: flex}
+.recommend ul li {margin-right: 70px; margin-bottom: 70px;}
