@@ -128,6 +128,22 @@ footer.container-fluid {
     height: 302px;
     background-color:  #333333;
 }
-.logoFooter {
+.logoFooter, .mapSite, .contactUs {
     margin-top: 40px;
+}
+.mapSite h2, .contactUs h2 {
+    font-family: "TTHoves-ExtraBold";
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F9F9F9;
+    margin-bottom: 20px;
+}
+.mapSite ul li, .contactUs ul li {
+    font-family: "TT Hoves";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #F9F9F9;
+    margin-bottom: 10px;
 }
