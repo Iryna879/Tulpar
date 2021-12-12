@@ -85,6 +85,27 @@ header.container-fluid {
     margin-top: 20px;
 }
 
+.specialists {
+    display: flex;
+    margin-top: 70px;
+}
+.specialists li {
+    margin-right: 50px;
+}
+.specialists img {
+    width: 129px;
+    height: 135px ;
+    border-radius: 50%;
+    background-size: cover;
+}
+.specialists p {
+    font-family: "TTHoves-Bold";
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #32495E;
+    margin-top: 20px;
+}
 
 
 
